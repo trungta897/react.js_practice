@@ -54,7 +54,7 @@ app.post('/api/users', (req, res) => {
       address
     });
   });
-});
+}); 
 
 // API: Cập nhật thông tin sinh viên
 app.put('/api/users/:id', (req, res) => {
